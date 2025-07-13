@@ -1,0 +1,48 @@
+/* Genel Stil */
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Başlık */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+/* Ana Menü (index.html) */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul li a {
+    display: block;
+    padding: 16px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: #e4e6eb;
+    transform: translateY(-3px);
+}

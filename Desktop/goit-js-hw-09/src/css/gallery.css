@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 24px 156px;
+    row-gap: 20px;
+    column-gap: 16px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    object-fit: cover;
+    background: url(<path-to-image>) lightgray -0.011px -77px / 100.006% 150% no-repeat;
+    overflow: hidden;
+    transition: 0.4s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(105%);
+}
+
+link {
+    text-align: center;
+    color: aqua;
+}
